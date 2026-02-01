@@ -1,8 +1,8 @@
 enableInlineShortcodes: true
 defaultContentLanguage: zh-cn
 # Hugo configuration file
-baseURL: "https://www.dustymind.cc/warehouse-website/"
-title: "A Warehouse"
+baseURL: "https://www.dustymind.cc/"
+title: 後戸の国
 enableGitInfo: true
 
 # import hextra as module
@@ -22,14 +22,12 @@ markup:
 
 menu:
   main:
-    - name: 音MAD工程
-      pageRef: /otomads
+    - name: 关于
+      pageRef: /about
       weight: 1
-    - name: GitHub
+    - name: 音MAD仓库
+      pageRef: "https://www.dustymind.cc/warehouse-website/"
       weight: 2
-      url: "https://github.com/Dustymind/warehouse-website"
-      params:
-        icon: github
     - name: Search
       weight: 3
       params:
@@ -46,4 +44,4 @@ params:
 
   editURL:
     enable: true
-    base: "https://github.com/Dustymind/warehouse-website/edit/main/content"
+    base: "https://github.com/Dustymind/dustymind.github.io/edit/main/content"
