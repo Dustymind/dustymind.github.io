@@ -1,5 +1,6 @@
 enableInlineShortcodes: true
 defaultContentLanguage: zh-cn
+languageCode: zh-CN
 # Hugo configuration file
 baseURL: "https://www.dustymind.cc/"
 title: 後戸の国
