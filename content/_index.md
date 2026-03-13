@@ -5,13 +5,15 @@ cascade:
   type: docs
 ---
 
-## 後戸の门
+## 後戸の国
 
-Main page, nothing else here.
+边缘之地上的边缘节点
 
 ### Something else
 
 {{< cards >}}
   {{< card link="about" title="关于本人" icon="user" >}}
   {{< card link="https://www.dustymind.cc/warehouse-website/" title="私的音 MAD 工程文件仓库" icon="music-note" >}}
+  {{< card link="2025-eof" title="2025年度总结" icon="calendar" >}}
+  {{< card link="friends" title="友链" icon="bookmark-alt" >}}
 {{< /cards >}}
